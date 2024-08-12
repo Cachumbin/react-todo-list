@@ -50,7 +50,7 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div className='elements'>
       <TodoForm onSubmit={addTodo}/>
       <h1 className="header">Todo list</h1>
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo}/>
