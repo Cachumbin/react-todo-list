@@ -17,7 +17,7 @@ const TodoForm = ({ onSubmit }) => {
     <form onSubmit={handleSubmit} className='new-item-form' action="">
         <div className="form-row">
           <label htmlFor="item" className='new-item-label'>New Item</label>
-          <input value={newItem} onChange={e => setNewItem(e.target.value)} type="text" id='item' />
+          <input value={newItem} onChange={e => setNewItem(e.target.value)} type="text" id='item'  className='text-input'/>
         </div>
         <button className='btn'>Add</button>
       </form>

@@ -23,6 +23,8 @@
 .elements{ 
     display: grid;
     align-items: center;
+    font-family: Montserrat;
+    font-weight: 500;
 }
 
 .header {
@@ -31,4 +33,39 @@
 
 .list{
     list-style: none;
+    padding: 0px 40px;
+}
+
+.btn {
+    height: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.text-input {
+    height: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 10px 0px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.item-label {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#check-item{
+    margin: 0px 10px 0px 10px;
 }
